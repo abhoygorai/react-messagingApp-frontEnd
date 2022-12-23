@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("https://react-messaging-backen-abhoygorai.onrender.com");
+const socket = io.connect("/api/* https://react-messaging-backen-abhoygorai.onrender.com");
 
 function App() {
   const [userName, setUserName] = useState("");
